@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:your_manga_uikit/main.dart';
 
 void main() {
-  runApp(const MaterialApp());
+  runApp(MaterialApp(
+    home: Scaffold(
+      body: MyApp()
+    ),
+  ));
 }
